@@ -1,0 +1,22 @@
+{
+    "images": [
+        {
+            "imageId": "crisis",
+            "titleImg": "The Crisis of the Third Century",
+            "text": "From AD 235 - AD 284, there were several things leading to the Roman Empire nearly collapsing, such as military vulnerabilities to invasion, civil war, plague, and economic depression. The crisis started in AD 235 when Emperor Alexander Severus was killed by his own troops. Instead of fighting their enemies, the Germanics, Alexander wanted to instead pacify them by paying tribute and resorted to harmless acts. This caused Alexander's troops to lose respect for him, so they killed him. With the loss of the Emperor, there was now a spot that needed to be filled in the Empire. Many people wanted to fill that spot, so generals of the Roman army neglected their duties in order to become Emperor. With the generals disregarding their duties, border protection began to decrease, and raids started to become frequent. After a while, the Roman Empire split up into three competing states to fight for the spot of Emperor of the Roman Empire: the Gallic Empire, Britannia, and Hispania. After Emperor Claudius II Gothicus won the Battle of Naissus, Hispania decided to come back to the Roman Empire. After Claudius died from a plague in 270, the commander of the cavalry at the Battle of Naissus Aurelian became the next successor and restored the Empire back to its former glory by defeating the Gallic Empire. Aurelian was able to defeat the Gallic Empire and the rest of Rome's invaders, reuniting all three competing back into the Roman Empire.",
+            "image": "./images/crisis_of_third_empire.jpg"
+        },
+        {
+            "imageId": "rise",
+            "titleImg": "The Rise of the Eastern Empire",
+            "text": "fill in later ",
+            "image": "./images/rise_of_the_eastern_empire.jpg"
+        },
+        {
+            "imageId": "fall",
+            "titleImg": "The Fall of Rome",
+            "text": "In AD 410, the city of Rome was destroyed by the Visigoths, a wandering nation of Germanic northeastern people. They were able to breach the walls of Rome and sack the capital of the Roman Empire. The Visigoths did as much damage as possible to the capital city, where they looted, burned, and pillaged everything in their way. This caused major irreversible damage to Rome, and their complete destruction wouldn't happen until 66 years later, AD 476, when the last Roman emperor of the West, Romulus Augustulus, was killed by a German chieftain, marking a definitive stage in the decline of the Western Roman Empire. Historians aren't entirely sure what the exact cause of the fall of Rome was after this point, but many have debated the reasons behind Rome's fall. Some argue that it resulted from a process of compromise and negotiation between the Romans and various barbarian groups. Others, however, emphasize the sheer brutality, devastation, and fear that accompanied its downfall.",
+            "image": "./images/fall_of_rome.jpg"
+        }
+    ]
+}
