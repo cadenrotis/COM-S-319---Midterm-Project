@@ -1,11 +1,5 @@
 {
-    "images": [
-        {
-            "imageId": "punicTime",
-            "titleImg": "The Three Great Punic Wars",
-            "text": " fill in later.",
-            "image": "./images/punic_wars_timeline.jpg"
-        },
+    "fallOfRome": [
         {
             "imageId": "crisis",
             "titleImg": "The Crisis of the Third Century",
@@ -23,6 +17,71 @@
             "titleImg": "The Fall of Rome",
             "text": "In AD 410, the city of Rome was destroyed by the Visigoths, a wandering nation of Germanic northeastern people. They were able to breach the walls of Rome and sack the capital of the Roman Empire. The Visigoths did as much damage as possible to the capital city, where they looted, burned, and pillaged everything in their way. This caused major irreversible damage to Rome, and their complete destruction wouldn't happen until 66 years later, AD 476, when the last Roman emperor of the West, Romulus Augustulus, was killed by a German chieftain, marking a definitive stage in the decline of the Western Roman Empire. Historians aren't entirely sure what the exact cause of the fall of Rome was after this point, but many have debated the reasons behind Rome's fall. Some argue that it resulted from a process of compromise and negotiation between the Romans and various barbarian groups. Others, however, emphasize the sheer brutality, devastation, and fear that accompanied its downfall.",
             "image": "./images/fall_of_rome.jpg"
+        }
+    ],
+    "timeline": [
+        {
+            "imageId": "foundingTime",
+            "titleImg": "The Founding of Rome",
+            "text": "753 BC",
+            "image": "./images/founding_of_rome.jpg",
+            "link": "./riseOfRome.html"
+        },
+        {
+            "imageId": "startOfRepublicTime",
+            "titleImg": "The Start of the Roman Republic",
+            "text": "509 BC",
+            "image": "./images/roman_republic_timeline.jpg",
+            "link": "./riseOfRome.html"
+        },
+        {
+            "imageId": "settlementLatinWarTime",
+            "titleImg": "The Settlement of the Latin War",
+            "text": "340 BC - 338 BC",
+            "image": "./images/latin_war_timeline.jpg",
+            "link": "./riseOfRome.html"
+        },
+        {
+            "imageId": "firstpunicwarTime",
+            "titleImg": "The First Punic War",
+            "text": "264 BC - 241 BC",
+            "image": "./images/first_punic_war.jpg",
+            "link": "./punicWars.html"
+        },
+        {
+            "imageId": "secondpunicwarTime",
+            "titleImg": "The Second Punic War",
+            "text": "218 BC - 201 BC",
+            "image": "./images/second_punic_war.jpg",
+            "link": "./punicWars.html"
+        },
+        {
+            "imageId": "thirdpunicwarTime",
+            "titleImg": "The Third Punic War",
+            "text": "149 BC - 146 BC",
+            "image": "./images/third_punic_war.jpg",
+            "link": "./punicWars.html"
+        },
+        {
+            "imageId": "crisisTime",
+            "titleImg": "The Crisis of the Third Century",
+            "text": "235 AD - 284 AD",
+            "image": "./images/crisis_timeline.jpg",
+            "link": "./fallOfRome.html"
+        },
+        {
+            "imageId": "riseEasternEmpireTime",
+            "titleImg": "The Rise of the Eastern Empire",
+            "text": "395 AD",
+            "image": "./images/rise_eastern_empire_timeline.jpg",
+            "link": "./fallOfRome.html"
+        },
+        {
+            "imageId": "fallTime",
+            "titleImg": "The Fall of Rome",
+            "text": "410 AD",
+            "image": "./images/fall_of_rome_timeline.jpg",
+            "link": "./fallOfRome.html"
         }
     ]
 }
