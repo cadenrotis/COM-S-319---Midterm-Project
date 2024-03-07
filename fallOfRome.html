@@ -188,52 +188,114 @@
 
         <div class="container marketing">
 
-            <!-- Header of the webpage -->
+            <!-- Header/title of the webpage -->
             <div class="header">
                 <h1>
                     <font size="+20"><u>The Fall of Rome</u></font>
                 </h1>
                 <br>
                 <h2 class="sub-header">
-                    fill out later
+                    In this section, it will discuss some of the key events that lead to the collapse of the Roman
+                    Empire, such as:
+                    <ul>
+                        <li>The Crisis of the Third Century</li>
+                        <li>The Rise of the Eastern Empire</li>
+                        <li>The Fall of Rome</li>
+                    </ul>
+                    While reading through the page, there will be a fun fact button at the end of each event description
+                    to make learning about the collapse
+                    the Roman Empire a little more interesting. There will also be a quiz at the end of the webpage to
+                    test your understanding of the events
+                    that lead to the demise of Rome.
                 </h2>
             </div>
 
-            <!-- catalog section of the webpage -->
+            <!-- where the collapsible events start on the webpage -->
 
             <hr class="featurette-divider">
 
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1" id="crisisofThirdCenImgTitle"></h2>
-                    <p class="lead" id="crisisofThirdCenImgDescription"></p>
+            <button type="button" class="collapsib">Section 1: The Crisis of the Third Century</button>
+            <div class="content">
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading fw-normal lh-1" id="crisisofThirdCenImgTitle"></h2>
+                        <p class="lead" id="crisisofThirdCenImgDescription"></p>
+                    </div>
+                    <div class="col-md-5" id="crisisofThirdCenImg">
+                    </div>
                 </div>
-                <div class="col-md-5" id="crisisofThirdCenImg">
-                </div>
+
+                <br>
+                <button id="crisisFunFactButton" style="background-color: rgb(228, 224, 224);"
+                    onclick="displayFunFact('crisis')">Click me for a fun fact</button></li>
+                <br>
             </div>
 
-            <hr class="featurette-divider">
+            <br>
+            <br>
+            <br>
 
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1" id="riseOfEasternEmpireImgTitle"></h2>
-                    <p class="lead" id="riseOfEasternEmpireImgDescription"></p>
+            <button type="button" class="collapsib">Section 2: The Rise of the Eastern Empire</button>
+            <div class="content">
+                <div class="row featurette">
+                    <div class="row featurette">
+                        <div class="col-md-7">
+                            <h2 class="featurette-heading fw-normal lh-1" id="riseOfEasternEmpireImgTitle"></h2>
+                            <p class="lead" id="riseOfEasternEmpireImgDescription"></p>
+                        </div>
+                        <div class="col-md-5" id="riseOfEasternEmpireImg">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-5" id="riseOfEasternEmpireImg">
-                </div>
+
+                <br>
+                <button id="riseFunFactButton" onclick="displayFunFact('rising')">Click me for a fun fact</button></li>
+                <br>
             </div>
 
-            <hr class="featurette-divider">
+            <br>
+            <br>
+            <br>
 
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1" id="fallOfRomeImgTitle"></h2>
-                    <p class="lead" id="fallOfRomeImgDescription"></p>
+            <button type="button" class="collapsib">Section 3: The Fall of Rome</button>
+            <div class="content">
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading fw-normal lh-1" id="fallOfRomeImgTitle"></h2>
+                        <p class="lead" id="fallOfRomeImgDescription"></p>
+                    </div>
+                    <div class="col-md-5" id="fallOfRomeImg">
+                    </div>
                 </div>
-                <div class="col-md-5" id="fallOfRomeImg">
-                </div>
+
+                <br>
+                <button id="fallFunFactButton" onclick="displayFunFact('fall')">Click me for a fun fact</button></li>
+                <br>
             </div>
 
+            <br>
+            <br>
+            <br>
+
+        </div>
+
+        <!-- Where the quiz is located -->
+        <div class="col">
+            <button id="toggleCardButton3" type="button" class="btn btn-primary mb-2 quiz-button" style="margin-left: 650px;">Click to Take Quiz</button>
+            <div id="card3" class="card collapse show shadow-sm">
+                <div class="card-body">
+                    <h3 class="featurette-heading fw-normal lh-1" style="text-align: center;">
+                        <pre><u>The Fall of Rome Quiz</u></pre>
+                    </h3>
+                    <div style="text-align: center; font-size: 30px; background-color: yellow;"> Important Disclaimer: the quiz won't be graded until all questions have been answered</div>
+                    <br>
+                    <div id="quizdiv"></div>
+                    <div id="score"></div>
+                    <button id="submit" style="margin-left: 700px;">submit</button>
+                    <script src="./fallOfRome.js"></script>
+
+                </div>
+            </div>
         </div>
 
         <br>

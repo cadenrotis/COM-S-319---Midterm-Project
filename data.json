@@ -1,6 +1,12 @@
 {
     "images": [
         {
+            "imageId": "punicTime",
+            "titleImg": "The Three Great Punic Wars",
+            "text": " fill in later.",
+            "image": "./images/punic_wars_timeline.jpg"
+        },
+        {
             "imageId": "crisis",
             "titleImg": "The Crisis of the Third Century",
             "text": "From AD 235 - AD 284, there were several things leading to the Roman Empire nearly collapsing, such as military vulnerabilities to invasion, civil war, plague, and economic depression. The crisis started in AD 235 when Emperor Alexander Severus was killed by his own troops. Instead of fighting their enemies, the Germanics, Alexander wanted to instead pacify them by paying tribute and resorted to harmless acts. This caused Alexander's troops to lose respect for him, so they killed him. With the loss of the Emperor, there was now a spot that needed to be filled in the Empire. Many people wanted to fill that spot, so generals of the Roman army neglected their duties in order to become Emperor. With the generals disregarding their duties, border protection began to decrease, and raids started to become frequent. After a while, the Roman Empire split up into three competing states to fight for the spot of Emperor of the Roman Empire: the Gallic Empire, Britannia, and Hispania. After Emperor Claudius II Gothicus won the Battle of Naissus, Hispania decided to come back to the Roman Empire. After Claudius died from a plague in 270, the commander of the cavalry at the Battle of Naissus Aurelian became the next successor and restored the Empire back to its former glory by defeating the Gallic Empire. Aurelian was able to defeat the Gallic Empire and the rest of Rome's invaders, reuniting all three competing back into the Roman Empire.",
@@ -9,8 +15,8 @@
         {
             "imageId": "rise",
             "titleImg": "The Rise of the Eastern Empire",
-            "text": "fill in later ",
-            "image": "./images/rise_of_the_eastern_empire.jpg"
+            "text": "In AD 395, the Roman Empire was faced with political challenges, military pressures, religious differences, and other various factors that made it difficult to maintain the entirety of the Roman Empire. Emperor Diocletian came up with a solution to help solve the issues that the Roman Empire was having, where he decided to split the empire into two halves, the Western Empire and the Eastern Empire. Due to this decision, the Roman Empire was easier to govern. However, the two empires started to drift apart after a while, to the point where they stopped working together to protect themselves from outside threats. They would even get into arguments about resources and military aid. As time went on, the Eastern Empire became very wealthy while the Western Empire descended into an economic crisis. Eventually, the political structure of the West couldn't survive, and the Western Empire fell apart, leaving only half of the Roman Empire to stand.",
+            "image": "./images/byzantine_empire.jpg"
         },
         {
             "imageId": "fall",
