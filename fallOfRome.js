@@ -147,7 +147,6 @@ toggleButton3.addEventListener('click', function () {
 
 let scoreSpot = document.getElementById("score");
 let scoreTxt = document.createElement("p");
-let counter = 0;
 
 // if quiz submitted, color correct and incorrect questions
 submitButton.addEventListener('click',
@@ -155,6 +154,7 @@ submitButton.addEventListener('click',
 
         let answerDiv = quizDiv.querySelectorAll('.answers');
         let questionSelected = quizDiv.querySelectorAll('.questiondiv');
+        let counter = 0;
 
         questions.forEach(
             (q, num) => {
