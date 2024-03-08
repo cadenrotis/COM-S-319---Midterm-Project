@@ -19,6 +19,46 @@
             "image": "./images/fall_of_rome.jpg"
         }
     ],
+    "punicWars": [
+        {
+            "imageId": "first",
+            "titleImg": "The First Punic War Map",
+            "text": "",
+            "image": "./images/first_punic_war_map.jpg"
+        },
+        {
+            "imageId": "second",
+            "titleImg": "The Second Punic War Map",
+            "text": "",
+            "image": "./images/second_punic_war_map.jpg"
+        },
+        {
+            "imageId": "third",
+            "titleImg": "The Third Punic War Map",
+            "text": "",
+            "image": "./images/third_punic_war_map.jpg"
+        }
+    ],
+    "riseOfRome": [
+        {
+            "imageId": "founding",
+            "titleImg": "The Crisis of the Third Century",
+            "text": "",
+            "image": "./images/founding_rome.jpg"
+        },
+        {
+            "imageId": "republic",
+            "titleImg": "The Rise of the Eastern Empire",
+            "text": "",
+            "image": "./images/roman_republic.jpg"
+        },
+        {
+            "imageId": "latin",
+            "titleImg": "The Fall of Rome",
+            "text": "",
+            "image": "./images/latin_war.jpg"
+        }
+    ],
     "timeline": [
         {
             "imageId": "foundingTime",
