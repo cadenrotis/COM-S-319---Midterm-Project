@@ -7,13 +7,13 @@ let submitButton = document.getElementById('submit');
 // when a fun fact button is clicked, it will display an alert message containing a fun fact
 function displayFunFact(event) {
     if (event === 'first') {
-        alert("Emperor Alexander Severus was well known for his love of philosophy and intellectual pursuits. He was one of the youngest emperors in Roman history, having succeeded to the throne at the age of 13. He was known for his quest of wisdom and intellectual curiosity, even though he was still a young man. He surrounded himself with smart philosophers and advisors and had a strong interest in philosophy. But difficulties and disputes dogged his reign, which finally resulted in his death at the age of 26.");
+        alert("The Romans modeled their ships after the Carthaginians after one of their ships washed up on the shore of Rome.");
     }
     if (event === 'second') {
-        alert("The Eastern Empire of Rome was called the Byzantine Empire. It continued for more than a millennium until the collapse of the Western Roman Empire in 476 AD.  The Byzantine Empire left a lasting legacy that still has an impact on Eastern Europe and the Mediterranean region today. It made major contributions to literature, art, architecture, and law.");
+        alert("The elephants the Carthaginians used in the war were an extinct elephant species known as Syrian elephants, that were twice the size of modern African elephants.");
     }
     if (event === 'third') {
-        alert("The Visigoths were one of the two main branches of the Goths, who played a significant role in the downfall of the Western Roman Empire. Following their victory over the armies of the Western Roman Empire in the Battle of Adrianople in 378 AD, the Visigoths went on to found their own kingdom in the Iberian Peninsula (present-day Spain and Portugal). They dominated this area for several centuries, having a profound effect on Spanish history and culture.");
+        alert("During this war Scipio became the youngest Roman Consul ever and they actually lifted the age restriction for him.");
     }
 }
 
@@ -79,29 +79,29 @@ for (i = 0; i < coll.length; i++) {
 // array containing the quiz questions
 let questions = [
     {
-        question: "1. What was the cause of death for Emperor Alexander Severus?",
+        question: "1. Where did a Majority of the fighting take place?",
         answers: {
-            a: "Illness",
-            b: "Died while in war",
-            c: "Killed by his own troops"
+            a: "Rome",
+            b: "Carthage",
+            c: "Sicily"
         },
         solution: "c"
     },
     {
-        question: "2. What solution did Emperor Diocletian come up with to solve the issues the Roman Empire were facing?",
+        question: "2. Who was the Carthanginian commander?",
         answers: {
-            a: "Split the Roman Empire into the Western Empire and Eastern Empire",
-            b: "Hire more troops",
-            c: "Raid the Goths"
+            a: "Hannibal",
+            b: "Scipio",
+            c: "Julius Ceaser"
         },
         solution: "a"
     },
     {
-        question: "3. What group of people caused major damage to the city of Rome?",
+        question: "3. What land did Rome gain from this war?",
         answers: {
-            a: "The Ottoman Empire",
-            b: "The Visigoths",
-            c: "The Eastern Roman Empire"
+            a: "Iberia",
+            b: "Africa",
+            c: "Italy"
         },
         solution: "b"
     }
