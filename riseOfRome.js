@@ -1,4 +1,4 @@
-et crisisButton = document.getElementById("crisisFunFactButton");
+let crisisButton = document.getElementById("crisisFunFactButton");
 let riseButton = document.getElementById("riseFunFactButton");
 let fallButton = document.getElementById("fallFunFactButton");
 let quizDiv = document.getElementById('quizdiv');
@@ -7,13 +7,13 @@ let submitButton = document.getElementById('submit');
 // when a fun fact button is clicked, it will display an alert message containing a fun fact
 function displayFunFact(event) {
     if (event === 'founding') {
-        alert("Emperor Alexander Severus was well known for his love of philosophy and intellectual pursuits. He was one of the youngest emperors in Roman history, having succeeded to the throne at the age of 13. He was known for his quest of wisdom and intellectual curiosity, even though he was still a young man. He surrounded himself with smart philosophers and advisors and had a strong interest in philosophy. But difficulties and disputes dogged his reign, which finally resulted in his death at the age of 26.");
+        alert("When Rome was founded it was just a small village on the Tiber river.");
     }
     if (event === 'republic') {
-        alert("The Eastern Empire of Rome was called the Byzantine Empire. It continued for more than a millennium until the collapse of the Western Roman Empire in 476 AD.  The Byzantine Empire left a lasting legacy that still has an impact on Eastern Europe and the Mediterranean region today. It made major contributions to literature, art, architecture, and law.");
+        alert("The Roman republic lasted over 500 years making it and the Roman empire one of the longest lasting empires ever.");
     }
     if (event === 'latin') {
-        alert("The Visigoths were one of the two main branches of the Goths, who played a significant role in the downfall of the Western Roman Empire. Following their victory over the armies of the Western Roman Empire in the Battle of Adrianople in 378 AD, the Visigoths went on to found their own kingdom in the Iberian Peninsula (present-day Spain and Portugal). They dominated this area for several centuries, having a profound effect on Spanish history and culture.");
+        alert("Despite all of the territory being taken over by Rome many of the towns were still allowed to keep local governments.");
     }
 }
 
@@ -79,29 +79,29 @@ for (i = 0; i < coll.length; i++) {
 // array containing the quiz questions
 let questions = [
     {
-        question: "1. What was the cause of death for Emperor Alexander Severus?",
+        question: "1. Who founded Rome?",
         answers: {
-            a: "Illness",
-            b: "Died while in war",
-            c: "Killed by his own troops"
+            a: "Julius Ceaser",
+            b: "Scipio",
+            c: "Romulus and Remus"
         },
         solution: "c"
     },
     {
-        question: "2. What solution did Emperor Diocletian come up with to solve the issues the Roman Empire were facing?",
+        question: "2. What government was overthrown?",
         answers: {
-            a: "Split the Roman Empire into the Western Empire and Eastern Empire",
-            b: "Hire more troops",
-            c: "Raid the Goths"
+            a: "Tyranny",
+            b: "Democracy",
+            c: "Communism"
         },
         solution: "a"
     },
     {
-        question: "3. What group of people caused major damage to the city of Rome?",
+        question: "3. What war provoked the Latins to fight the Romans?",
         answers: {
-            a: "The Ottoman Empire",
-            b: "The Visigoths",
-            c: "The Eastern Roman Empire"
+            a: "The first Punic war",
+            b: "The first Samnite war",
+            c: "The second Punic war"
         },
         solution: "b"
     }
