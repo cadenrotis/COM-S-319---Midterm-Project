@@ -17,7 +17,7 @@ function load(imageResult)
 
     // latin war elements
     let img3 = document.getElementById("latinWarImg");
-    let text3 = document.getElementById("latinWarImgDescription");
+    let text3 = document.getElementById("latinWareImgDescription");
     let title3 = document.getElementById("latinWarImgTitle");
     
     for (var i = 0; i < imageResult.riseOfRome.length; i++) {

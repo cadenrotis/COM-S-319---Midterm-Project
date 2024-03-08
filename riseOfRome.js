@@ -1,6 +1,6 @@
-let crisisButton = document.getElementById("crisisFunFactButton");
-let riseButton = document.getElementById("riseFunFactButton");
-let fallButton = document.getElementById("fallFunFactButton");
+let foundingButton = document.getElementById("foundingFunFactButton");
+let startRomeButton = document.getElementById("startFunFactButton");
+let settlementButton = document.getElementById("settlementFunFactButton");
 let quizDiv = document.getElementById('quizdiv');
 let submitButton = document.getElementById('submit');
 
@@ -18,42 +18,42 @@ function displayFunFact(event) {
 }
 
 // event listeners to change the color of the fun fact buttons whenever they are hovered or not hovered over
-crisisButton.addEventListener(
+foundingButton.addEventListener(
     "mouseover",
     (event) => {
         event.target.style.background = "red";
     },
 );
 
-crisisButton.addEventListener(
+foundingButton.addEventListener(
     "mouseleave",
     (event) => {
         event.target.style.background = "rgb(228, 224, 224)";
     },
 );
 
-riseButton.addEventListener(
+startRomeButton.addEventListener(
     "mouseover",
     (event) => {
         event.target.style.background = "red";
     },
 );
 
-riseButton.addEventListener(
+startRomeButton.addEventListener(
     "mouseleave",
     (event) => {
         event.target.style.background = "rgb(228, 224, 224)";
     },
 );
 
-fallButton.addEventListener(
+settlementButton.addEventListener(
     "mouseover",
     (event) => {
         event.target.style.background = "red";
     },
 );
 
-fallButton.addEventListener(
+settlementButton.addEventListener(
     "mouseleave",
     (event) => {
         event.target.style.background = "rgb(228, 224, 224)";

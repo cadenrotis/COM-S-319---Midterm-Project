@@ -8,7 +8,7 @@ function load(imageResult)
     // first punic war elements
     let img1 = document.getElementById("firstPunicWarMapImg");
     let text1 = document.getElementById("firstPunicWarMapImgDescription");
-    let title1 = document.getElementById("crisisofThirdCenImgTitle");
+    let title1 = document.getElementById("firstPunicWarMapImgTitle");
 
     // second punic war elements
     let img2 = document.getElementById("secondPunicWarMapImg");
