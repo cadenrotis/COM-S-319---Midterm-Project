@@ -148,13 +148,13 @@
                             <a class="nav-link" href="./index.html">Timeline</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page"  href="./riseOfRome.html">Rise of Rome</a>
+                            <a class="nav-link" href="./riseOfRome.html">Rise of Rome</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./punicWars.html">Punic Wars</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./fallOfRome.html">Fall of Rome</a>
+                            <a class="nav-link active" aria-current="page" href="./fallOfRome.html">Fall of Rome</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./studentInfo.html">Information about the Students</a>
@@ -188,24 +188,120 @@
 
         <div class="container marketing">
 
-            <!-- Header of the webpage -->
+            <!-- Header/title of the webpage -->
             <div class="header">
                 <h1>
                     <font size="+20"><u>The Rise of Rome</u></font>
                 </h1>
                 <br>
                 <h2 class="sub-header">
-                    fill out later
+                    On this webpage, it will go over some of the key events that lead to the rise of the Roman
+                    Empire, such as:
+                    <ul>
+                        <li>The Founding Of Rome</li>
+                        <li>The Start Of The Roman Republic</li>
+                        <li>The Settlement Of The Latin War</li>
+                    </ul>
+                    While reading through the page, there will be a fun fact button at the end of each event description
+                    to make learning about the rise
+                    the Roman Empire a little more interesting. There will also be a quiz at the end of the webpage to
+                    test your understanding of the events
+                    that lead to the demise of Rome.
                 </h2>
             </div>
 
-            <!-- catalog section of the webpage -->
+            <!-- where the collapsible events start on the webpage -->
 
             <hr class="featurette-divider">
 
+            <button type="button" class="collapsib">Section 1: The Founding Of Rome</button>
+            <div class="content">
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading fw-normal lh-1" id="foundingOfRomeImgTitle"></h2>
+                        <p class="lead" id="foundingOfRomeImgDescription"></p>
+                    </div>
+                    <div class="col-md-5" id="foundingOfRomeImg">
+                    </div>
+                </div>
 
+                <br>
+                <button id="foundingFunFactButton" style="background-color: rgb(228, 224, 224);"
+                    onclick="displayFunFact('founding')">Click me for a fun fact</button></li>
+                <br>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <button type="button" class="collapsib">Section 2: The Start Of The Roman Republic</button>
+            <div class="content">
+                <div class="row featurette">
+                    <div class="row featurette">
+                        <div class="col-md-7">
+                            <h2 class="featurette-heading fw-normal lh-1" id="romanRepublicImgTitle"></h2>
+                            <p class="lead" id="romanRepublicImgDescription"></p>
+                        </div>
+                        <div class="col-md-5" id="romanRepublicImg">
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <button id="riseFunFactButton" onclick="displayFunFact('republic')">Click me for a fun fact</button></li>
+                <br>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <button type="button" class="collapsib">Section 3: The Settlement Of The Latin War</button>
+            <div class="content">
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading fw-normal lh-1" id="latinWarImgTitle"></h2>
+                        <p class="lead" id="latinWareImgDescription"></p>
+                    </div>
+                    <div class="col-md-5" id="latinWarImg">
+                    </div>
+                </div>
+
+                <br>
+                <button id="fallFunFactButton" onclick="displayFunFact('latin')">Click me for a fun fact</button></li>
+                <br>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <!-- Where the quiz is located -->
+            <div class="col">
+                <button id="toggleCardButton3" type="button" class="btn btn-primary mb-2 quiz-button"
+                    style="margin-left: auto;">Click to Take Quiz</button>
+                <div id="card3" class="card collapse show shadow-sm">
+                    <div class="card-body">
+                        <h3 class="featurette-heading fw-normal lh-1" style="text-align: center;">
+                            <pre><u>The Rise of Rome Quiz</u></pre>
+                        </h3>
+                        <div style="text-align: center; font-size: 30px; background-color: yellow;"> Important
+                            Disclaimer: the quiz won't be graded until all questions have been answered</div>
+                        <br>
+                        <div id="quizdiv"></div>
+                        <div id="score"></div>
+                        <button id="submit">submit</button>
+                        <script src="./riseOfRome.js"></script>
+
+                    </div>
+                </div>
+            </div>
 
         </div>
+
+        <br>
+        <br>
 
         <!-- FOOTER -->
         <footer class="b-footer">
@@ -215,9 +311,10 @@
             </div>
         </footer>
     </main>
+
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="riseOfRome.js"></script>
-    <script src="data.js"></script>
+    <script src="data3.js"></script>
 
 </body>
 
