@@ -151,10 +151,10 @@
                             <a class="nav-link" href="./riseOfRome.html">Rise of Rome</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./punicWars.html">Punic Wars</a>
+                            <a class="nav-link" href="./punicWars.html">Punic Wars</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./fallOfRome.html">Fall of Rome</a>
+                            <a class="nav-link active" aria-current="page" href="./fallOfRome.html">Fall of Rome</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./studentInfo.html">Information about the Students</a>
@@ -188,24 +188,119 @@
 
         <div class="container marketing">
 
-            <!-- Header of the webpage -->
+            <!-- Header/title of the webpage -->
             <div class="header">
                 <h1>
-                    <font size="+20"><u>The Three Punic Wars</u></font>
+                    <font size="+20"><u>The Punic Wars</u></font>
                 </h1>
                 <br>
                 <h2 class="sub-header">
-                    fill out later
+                    On this webpage, it will go over some of the key events of The Punic Wars, such as:
+                    <ul>
+                        <li>The First Punic War</li>
+                        <li>The Second Punic War</li>
+                        <li>The Third Punic War</li>
+                    </ul>
+                    While reading through the page, there will be a fun fact button at the end of each event description
+                    to make learning about the Punic wars
+                    a little more interesting. There will also be a quiz at the end of the webpage to
+                    test your understanding of the events
+                    that happened during the punic wars.
                 </h2>
             </div>
 
-            <!-- catalog section of the webpage -->
+            <!-- where the collapsible events start on the webpage -->
 
             <hr class="featurette-divider">
 
+            <button type="button" class="collapsib">Section 1: The First Punic War</button>
+            <div class="content">
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading fw-normal lh-1" id="firstPunicWarMapImgTitle"></h2>
+                        <p class="lead" id="firstPunicWarMapImgDescription"></p>
+                    </div>
+                    <div class="col-md-5" id="firstPunicWarMapImg">
+                    </div>
+                </div>
 
+                <br>
+                <button id="firstFunFactButton" style="background-color: rgb(228, 224, 224);"
+                    onclick="displayFunFact('first')">Click me for a fun fact</button></li>
+                <br>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <button type="button" class="collapsib">Section 2: The Second Punic War</button>
+            <div class="content">
+                <div class="row featurette">
+                    <div class="row featurette">
+                        <div class="col-md-7">
+                            <h2 class="featurette-heading fw-normal lh-1" id="secondPunicWarMapImgTitle"></h2>
+                            <p class="lead" id="secondPunicWarMapImgDescription"></p>
+                        </div>
+                        <div class="col-md-5" id="secondPunicWarMapImg">
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <button id="secondFunFactButton" onclick="displayFunFact('second')">Click me for a fun fact</button></li>
+                <br>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <button type="button" class="collapsib">Section 3: The Third Punic War</button>
+            <div class="content">
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading fw-normal lh-1" id="thirdPunicWarMapImgTitle"></h2>
+                        <p class="lead" id="thirdPunicWarMapImgDescription"></p>
+                    </div>
+                    <div class="col-md-5" id="thirdPunicWarMapImg">
+                    </div>
+                </div>
+
+                <br>
+                <button id="thirdFunFactButton" onclick="displayFunFact('third')">Click me for a fun fact</button></li>
+                <br>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <!-- Where the quiz is located -->
+            <div class="col">
+                <button id="toggleCardButton3" type="button" class="btn btn-primary mb-2 quiz-button"
+                    style="margin-left: auto;">Click to Take Quiz</button>
+                <div id="card3" class="card collapse show shadow-sm">
+                    <div class="card-body">
+                        <h3 class="featurette-heading fw-normal lh-1" style="text-align: center;">
+                            <pre><u>The Punic Wars Quiz</u></pre>
+                        </h3>
+                        <div style="text-align: center; font-size: 30px; background-color: yellow;"> Important
+                            Disclaimer: the quiz won't be graded until all questions have been answered</div>
+                        <br>
+                        <div id="quizdiv"></div>
+                        <div id="score"></div>
+                        <button id="submit">submit</button>
+                        <script src="./punicWars.js"></script>
+
+                    </div>
+                </div>
+            </div>
 
         </div>
+
+        <br>
+        <br>
 
         <!-- FOOTER -->
         <footer class="b-footer">
@@ -215,9 +310,10 @@
             </div>
         </footer>
     </main>
+
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="punicWars.js"></script>
-    <script src="data.js"></script>
+    <script src="data2.js"></script>
 
 </body>
 
